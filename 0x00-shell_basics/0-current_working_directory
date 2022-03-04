@@ -1,2 +1,2 @@
 #!/bin/bash
-readelin ./0-current_working_directory
+chmod u_x 0-current_working_directory
