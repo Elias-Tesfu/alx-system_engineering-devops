@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_DIRECTORY='/home/Foo/folder_source'
-DESTINATION_DIRECTORY='/home/Foo/other_folder/folder_destination'
+SOURCE_DIRECTORY='.'
+DESTINATION_DIRECTORY='..'
 
 cp -v $SOURCE_DIRECTORY/*.html $DESTINATION_DIRECTORY
