@@ -1,6 +1,2 @@
 #!/bin/bash
-
-SOURCE_DIRECTORY='.'
-DESTINATION_DIRECTORY='..'
-
-cp -v $SOURCE_DIRECTORY/*.html $DESTINATION_DIRECTORY
+cp -v .*.html ..
