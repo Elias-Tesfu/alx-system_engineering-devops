@@ -1,13 +1,6 @@
 #!/usr/bin/env bash
 # configures an Ubuntu server's local host and facebook.com
 cp /etc/hosts ~/hosts.new
-<<<<<<< HEAD
 sed -i "s/^127[0-9.]*\slocalhost/127.0.0.2 localhost/" ~/hosts.new
 sed -i "$ a\8.8.8.8 facebook.com" ~/hosts.new
 cp -f ~/hosts.new /etc/hosts
-=======
-sed -i 's/127.0.0.1/127.0.0.2/' ~/hosts.new
-sed -i '2i8.8.8.8 facebook.com' ~/hosts.new
-cp -f ~/hosts.new /etc/hosts
-rm -f ~/hosts.new
->>>>>>> 65ca6a8d3a9bfd76b12b784834a002ed5a5b3a4e
