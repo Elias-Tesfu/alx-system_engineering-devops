@@ -1,0 +1,1 @@
+This is the readme file for the web stack debugging exercise. And its the first part.
